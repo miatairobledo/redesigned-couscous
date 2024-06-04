@@ -11,8 +11,6 @@ EXPOSE 80
 RUN /bin/sh -c "ollama start & sleep 10 && \
     ollama run gemma && \
     ollama run phi3 && \
-    ollama run llava && \
-    ollama run mistral && \
-    ollama run codellama && \
-    ollama run orca-mini"
+    ollama run llama3 && \
+    ollama run llava"
 
